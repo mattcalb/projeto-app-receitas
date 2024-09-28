@@ -14,7 +14,7 @@
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="75dp"
         app:cardBackgroundColor="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,7 @@
         android:id="@+id/logo"
         android:layout_width="114dp"
         android:layout_height="79dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="35dp"
         android:elevation="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -38,12 +38,14 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@drawable/fundo_footer"
+        app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_nav"
+        app:itemIconSize="30dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
