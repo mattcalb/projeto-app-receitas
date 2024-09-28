@@ -114,25 +114,26 @@
         android:id="@+id/login_button"
         android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginTop="36dp"
         android:backgroundTint="@color/orange"
         android:text="Entrar"
-        app:layout_constraintBottom_toBottomOf="@id/container_login"
+        app:layout_constraintBottom_toBottomOf="@+id/container_login"
         app:layout_constraintEnd_toEndOf="@id/container_login"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="@id/container_login"
-        app:layout_constraintTop_toBottomOf="@id/forgot_password"/>
+        app:layout_constraintTop_toBottomOf="@id/forgot_password"
+        app:layout_constraintVertical_bias="0.122" />
 
     <TextView
         android:id="@+id/naotemumaconta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:textSize="15sp"
+        android:layout_marginTop="20dp"
         android:text="Não tem uma conta?"
         android:textColor="@color/white"
+        android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@id/cadastrese"
-        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="@id/container_login"
         app:layout_constraintTop_toBottomOf="@id/login_button" />
 
@@ -140,11 +141,11 @@
         android:id="@+id/cadastrese"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
         android:text="Cadastre-se"
-        android:textSize="15sp"
         android:textColor="@color/ultra_dark_green"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@id/container_login"
         app:layout_constraintTop_toBottomOf="@id/login_button" />
 
