@@ -12,13 +12,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="173dp"
-        android:layout_height="171dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
 
         android:layout_marginTop="111dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/app_receitas_icon" />
@@ -27,10 +27,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="29dp"
         android:fontFamily="@font/poppins_regular"
         android:text="LOGIN"
         android:textColor="@color/beige"
         android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/container_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -53,7 +56,7 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="250dp"
+        android:layout_width="290dp"
         android:layout_height="50dp"
         android:layout_marginTop="44dp"
         android:background="@drawable/input"
@@ -72,7 +75,7 @@
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="250dp"
+        android:layout_width="290dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/input"
@@ -92,7 +95,7 @@
         android:id="@+id/forgot_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins_regular"
         android:text="Esqueci minha senha"
